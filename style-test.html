@@ -2,25 +2,27 @@
 <html>
 <head> 
     <title>Style Test</title>
-    <style type="text/css">
-        h1{
-            font-size: 30px;
-            color:#ffcef4;
-        }
-    </style>
-    <!--this ^^^ is ruleset styling; h1 is the selector statement which targets a bunch of elements to style; w/in the braces is decloration block-->
-    <!--each line is called a declaration w/ a declaration property (ex:font-size) and a value (ex: 30px)-->
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+    <!--rel attribute stands for relation; its saying lets link to this file and the relation is style sheet; the type is text/css-->
+    <!-- <style type="text/css"> (used for styling in css w/out another file)
+    </style>-->
     
-    <h1 style="font-size: 30px; color:#ffcef4;">Heading 1 - 1</h1>
-    <!--this is in line styling which can get repetative cuz u have to copy&paste it to each line-->
-    <h1>Heading 1 - 2</h1>
+</head>
+
+
+<body>
+    <span>Span element</span>
+    <h1 class="uppercase"><span>Heading 1</span> - 1</h1>
+    <!-- <h1 style="font-size: 30px; color: brown;">Heading 1 - 1</h1> -->
+    <!-- ^^^ this is in line styling which can get repetative cuz u have to copy&paste it to each line-->
+    <h1 class="big">Heading 1 - 2</h1>
     <h1>Heading 1 - 3</h1>
 
-    <h2 style="font-size: 20px; color: #bf9ab6;">Heading 2 - 1</h2>
-    <h2 style="font-size: 20px; color: #bf9ab6;">Heading 2 - 2</h2>
-    <h2 style="font-size: 20px; color: #bf9ab6;">Heading 2 - 3</h2>
+    <!-- <h2 style="font-size: 20px; color: brown;">Heading 2 - 1</h1> -->
+    <!-- ^^^ if i put that line in the txt is gonn be brown b/c the more specific style takes precendence-->
+    <h2 class="big uppercase">Heading 2 - 1</h2>
+    <h2 class="uppercase">Heading 2 - 2</h2>
+    <h2 class="big">Heading 2 - 3</h2>
 
 </body>
 </html>
