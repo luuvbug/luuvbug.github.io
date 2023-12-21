@@ -2,16 +2,25 @@
 <html>
 <head> 
     <title>Style Test</title>
+    <style type="test/css">
+        h1 {
+            font-size: 30px;
+            color:#ffcef4;
+        }
+    </style>
+    <!--this ^^^ is ruleset styling; h1 is the selector statement which targets a bunch of elements to style; w/in the braces is decloration block-->
+    <!--each line is called a declaration w/ a declaration property (ex:font-size) and a value (ex: 30px)-->
 </head>
 <body>
     
-    <h1>Heading 1 - 1</h1>
+    <h1 style="font-size: 30px; color:#ffcef4;">Heading 1 - 1</h1> 
+    <!--this is in line styling which can get repetative cuz u have to copy&paste it to each line-->
     <h1>Heading 1 - 2</h1>
     <h1>Heading 1 - 3</h1>
 
-    <h2>Heading 2 - 1</h2>
-    <h2>Heading 2 - 2</h2>
-    <h2>Heading 2 - 3</h2>
+    <h2 style="font-size: 20px; color: #bf9ab6;">Heading 2 - 1</h2>
+    <h2 style="font-size: 20px; color: #bf9ab6;">Heading 2 - 2</h2>
+    <h2 style="font-size: 20px; color: #bf9ab6;">Heading 2 - 3</h2>
 
 </body>
 </html>
