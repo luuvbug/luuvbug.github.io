@@ -4,4 +4,15 @@ body {
 
 header {
     background-color: #9CB380;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+header img {
+    border-radius: 150px;
+    width: 300px;
+    border: 5px solid #717568;
 }
