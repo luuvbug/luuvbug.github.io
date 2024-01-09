@@ -2,7 +2,17 @@ body {
     background-color: lightpink;
 }
 
+header img {
+    width: 50px;
+}
+
 #header-nav-bar {
     display: flex;
     align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px 5px 10px;
 }
