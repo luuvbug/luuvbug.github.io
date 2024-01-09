@@ -11,8 +11,14 @@ header img {
     align-items: center;
 }
 
+li {
+    list-style: none;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
-    margin: 10px 5px 5px 10px;
+    width: 400px;
+    margin: 20px auto;
+    align-items: center;
 }
