@@ -17,7 +17,16 @@
 }
 
 /* Casta Thin */
+@font-face {
+    font-family: 'Casta-Thin';
+    src: url(https://luuvbug.github.io/fonts/Casta-Thin.woff2) format('woff2');
+}
 
+/* Casta Thin Slanted */
+@font-face {
+    font-family: 'Casta-ThinSlanted';
+    src: url(https://luuvbug.github.io/fonts/Casta-ThinSlanted.woff2) format('woff2');
+}
 
 
 
