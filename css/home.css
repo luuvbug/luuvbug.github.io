@@ -4,12 +4,24 @@
     src: url(https://luuvbug.github.io/fonts/Coconat-Regular.woff2) format('woff2');
 }
 
+/* Coconat Demi */
+@font-face {
+    font-family: 'Coconat Regular';
+    src: url(https://luuvbug.github.io/fonts/Coconat-Demi.woff2) format('woff2');
+}
+
+/* Coconat Bold */
+@font-face {
+    font-family: 'Coconat Regular';
+    src: url(https://luuvbug.github.io/fonts/Coconat-Bold.woff2) format('woff2');
+}
+
 
 
 
 body {
     background-color: #F8E8EE;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Coconat Regular', Helvetica, sans-serif;
 }
 
 header img {
