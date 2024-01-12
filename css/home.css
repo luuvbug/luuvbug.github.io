@@ -1,57 +1,24 @@
-/* Coconat Regular font*/
+ /* Coconat Regular*/
 @font-face {
-    font-family: 'Coconat';
-    src: url('fonts/Coconat-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-/* Coconat BOLD font*/
-@font-face {
-    font-family: 'Coconat-Bold';
-    src: url('fonts/Coconat-Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+    font-family: 'Coconat Regular';
+    src: url(https://luuvbug.github.io/fonts/Coconat-Regular.woff2) format('woff2');
 }
 
 
-/* Coconat Demi font*/
-@font-face {
-    font-family: 'Coconat-Demi';
-    src: url('fonts/Coconat-Demi.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-/* Denova Opti font*/
-@font-face {
-    font-family: 'DenovaOpti';
-    src: url('fonts/DenovaOpti.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 
 body {
     background-color: #F8E8EE;
-    font-family: 'DenovaOpti';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header img {
     width: 50px;
 }
 
-#header-nav-bar {
+nav {
     display: flex;
     align-items: center;
-}
-
-h3 {
-    font-family: 'DenovaOpti';
 }
 
 li {
