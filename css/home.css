@@ -20,19 +20,21 @@
 @font-face {
     font-family: 'Casta-Thin';
     src: url(https://luuvbug.github.io/fonts/Casta-Thin.woff2) format('woff2');
+    font-weight: 800;
 }
 
 /* Casta Thin Slanted */
 @font-face {
     font-family: 'Casta-ThinSlanted';
     src: url(https://luuvbug.github.io/fonts/Casta-ThinSlanted.woff2) format('woff2');
+    font-weight: 800;
 }
 
 
 
 body {
     background-color: #F8E8EE;
-    font-family: 'Coconat Regular', Helvetica, sans-serif;
+    font-family: 'Casta-Thin', 'Coconat-Regular', Helvetica, sans-serif;
 }
 
 header img {
@@ -42,6 +44,10 @@ header img {
 nav {
     display: flex;
     align-items: center;
+}
+
+h3{
+    font-family: 'Coconat-Demi';
 }
 
 li {
