@@ -38,6 +38,19 @@ body {
     font-weight: 600;
 }
 
+h1{
+    font-family: 'Coconat-Demi';
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Coconat-Demi';
+}
+
+h3 {
+    font-family: 'Coconat-Demi';
+}
+
 /* header img {
     width: 50px;
 }
@@ -63,12 +76,7 @@ a:link {
 }
 
 a:visited {
-    text-decoration: none;
     color: black;
-}
-
-h1{
-    font-family: 'Coconat-Demi';
 }
 
 li {
