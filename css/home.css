@@ -32,15 +32,32 @@
 
 * {box-sizing:border-box}
 
+header {
+    background-color: #ecd5df;
+}
+
+
 body {
-    background-color: #F8E8EE;
+    margin: 0;
+    background-color: #ffe6f1;
     font-family: 'Casta-Thin', Helvetica, sans-serif;
     font-weight: 600;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 20px;
 }
 
 h1{
     font-family: 'Coconat-Demi';
     font-size: 40px;
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
 }
 
 h2 {
@@ -106,7 +123,7 @@ ul {
 
 .slide-img {
     position: static;
-    margin-left: 350px;
+    margin-left: 340px;
     margin-right: auto;
 }
 
@@ -167,4 +184,11 @@ ul {
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+}
+
+footer {
+    background-color: #ecd5df;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
 }
