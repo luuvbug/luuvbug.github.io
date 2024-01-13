@@ -32,22 +32,31 @@
 
 * {box-sizing:border-box}
 
+
+
+/*
 header {
     background-color: #ecd5df;
-}
+} */
 
 
 body {
     margin: 0;
-    background-color: #ffe6f1;
     font-family: 'Casta-Thin', Helvetica, sans-serif;
     font-weight: 600;
+    background-color: #d5cebb;
+    background-size: 100% 1200px;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 main {
-    max-width: 1000px;
     margin: 0 auto;
     padding: 20px 20px;
+    background-image: url('../img/bookbgd.png'); /* ../ is used b/c css file is in a folder so its going to take a step back and exit the css folder then look for the img folder and so on*/
+    background-size: 60% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -67,11 +76,6 @@ h2 {
 h3 {
     font-family: 'Coconat-Demi';
 }
-
-/* header img {
-    width: 50px;
-}
-*/
 
 img {
     width: auto;
@@ -187,8 +191,8 @@ ul {
 }
 
 footer {
-    background-color: #ecd5df;
+    /* background-color: #ecd5df; */
     text-align: center;
-    padding: 50px;
+    padding: 10px;
     margin: 0;
 }
