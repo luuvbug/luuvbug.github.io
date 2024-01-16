@@ -34,48 +34,56 @@
 
 
 
-/*
-header {
-    background-color: #ecd5df;
-} */
 
+/* header {
+    display: flex;
+    flex-direction: column;
+} */
 
 body {
     margin: 0;
     font-family: 'Casta-Thin', Helvetica, sans-serif;
     font-weight: 600;
-    background-color: #d5cebb;
-    background-size: 100% 1200px;
+    background-image: url('../img/library.png');
+    background-color: beige;
+    background-size: 1950px 1150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#book-bgd {
+    margin: 0;
+    background-image: url('../img/bookbgd.png'); /* ../ is used b/c css file is in a folder so its going to take a step back and exit the css folder then look for the img folder and so on*/
+    background-size: 60% 80%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 main {
-    margin: 0 auto;
-    padding: 20px 20px;
-    background-image: url('../img/bookbgd.png'); /* ../ is used b/c css file is in a folder so its going to take a step back and exit the css folder then look for the img folder and so on*/
-    background-size: 60% 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
+    margin: 0; 
 }
 
-h1{
+.leftside, h1{
     font-family: 'Coconat-Demi';
     font-size: 40px;
-    text-align: center;
+    margin-inline-start: 500px;
+    margin-block-start: -20px;
 }
 
 .caption {
-    text-align: center;
+    margin-inline-start: 550px;
+    margin-block-start: -20px;
 }
 
 h2 {
     font-family: 'Coconat-Demi';
+    margin-inline-start: 45px;
 }
 
 h3 {
     font-family: 'Coconat-Demi';
 }
+
 
 img {
     width: auto;
@@ -84,7 +92,8 @@ img {
 
 #header-nav-bar {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .nav-item:hover {
@@ -108,17 +117,20 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 1000px;
-    /* margin: 20px auto; */
     margin-left: 600px;
     align-items: flex-end;
+    flex-direction: column;
 }
 
 
 /* Slide show things */
 .slideshow-container {
-    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 400px;
     position: relative;
-    margin: auto;
+    margin-left: 450px;
 }
 
 .mySlides {
@@ -127,7 +139,7 @@ ul {
 
 .slide-img {
     position: static;
-    margin-left: 340px;
+    margin-left: 50px;
     margin-right: auto;
 }
 
@@ -147,7 +159,7 @@ ul {
 }
 
 .next {
-    right: 0;
+    left: 400px;
     border-radius: 3px 0 0 3px;
 }
 
@@ -163,6 +175,10 @@ ul {
     width: 100%;
     position: absolute;
     text-align: center;
+}
+
+#dots {
+    margin-inline-start: 650px;
 }
 
 .dot {
